@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Image from "next/image"
 
 function Home() {
     return (
@@ -7,9 +8,17 @@ function Home() {
                 <title>JatoClean</title>
             </Head>
             <div class="main-top"> 
-                <div class="logo"></div>
+                <div class="logo">
+                    <Image src="/jatoclean-logo.svg" layout="fill"/>
+                </div>
             </div>
-            <div class="main-bottom"> Meio </div>
+            <div class="main-bottom">
+                <div class="main-content">
+
+                </div>
+            
+            
+             </div>
         </div>
     )
 }
