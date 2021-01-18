@@ -26,9 +26,9 @@ body {
 }
 
 .logo {
-    height: 100px;
-    width: 200px;
-    background-color: magenta;
+    position: relative;
+    height: 200px;
+    width: 600px;
 }
 
 .main-bottom {
@@ -37,4 +37,12 @@ body {
     width: 100%;
     flex: 3;  
     background-color: #00ACBF;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+     height: 90%;
+     width: 70%;
+     background-color: white;
 }
