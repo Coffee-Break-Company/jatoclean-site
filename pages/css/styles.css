@@ -28,7 +28,7 @@ body {
 .logo {
     position: relative;
     height: 200px;
-    width: 600px;
+    width: 500px;
 }
 
 .main-bottom {
@@ -39,10 +39,98 @@ body {
     background-color: #00ACBF;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
-.main-content {
-     height: 90%;
-     width: 70%;
-     background-color: white;
+
+.main-bottom-title-box, .main-bottom-images-box, .main-bottom-social-box {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-bottom-title-box {
+    background-color: purple;
+    flex: 1;
+}
+
+.main-bottom-images-box {
+    background-color: blue;
+    flex: 3;
+}
+
+.main-bottom-social-box {
+    background-color: green;
+    flex: 1;
+}
+
+.main-bottom-social-box {
+    flex-direction: column;
+}
+
+.main-bottom-social-icons {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    background-color: darksalmon;
+}
+
+.main-bottom-social-text {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-bottom-social-icons {
+    flex: 1;
+    height: 100%;
+    width: 500px;
+    background-color: darksalmon;
+}
+
+
+.text-big {
+    font-family: encodeSansCondBold;
+    text-align: center;
+    color: white;
+    font-size: 35pt;
+}
+
+.text-mid {
+    font-family: encodeSansCondReg;
+    text-align: center;
+    color: white;
+    font-size: 25pt;
+}
+
+.text-small {
+    font-family: encodeSansCondReg;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+}
+
+p {
+    margin: 0;
+}
+
+@font-face {
+    font-family: encodeSansCondBold;
+    src: url(fonts/EncodeSansCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: encodeSansCondSb;
+    src: url(fonts/EncodeSansCondensed-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: encodeSansCondReg;
+    src: url(fonts/EncodeSansCondensed-Regular.ttf);
 }
