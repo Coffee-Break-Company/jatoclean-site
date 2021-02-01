@@ -25,7 +25,20 @@ function Home() {
                         <p class="text-mid">LAVAGEM E HIGIENIZAÇÃO DE CARROS E ESTOFADOS</p>
                     </div>
                 </div>
-                <div class="main-bottom-images-box"></div>
+                <div class="main-bottom-images-box">
+                    <div class="main-bottom-image-mask">
+                        <div class="main-bottom-image">
+                            <Image src="/sofa.png" layout="fill"/>
+                        </div>
+                        <div class="main-bottom-image">
+                            <Image src="/tapete.png" layout="fill"/>
+                        </div>
+                        <div class="main-bottom-image">
+                            <Image src="/carro.png" layout="fill"/>
+                        </div>
+                    </div>
+                  
+                </div>
                 <div class="main-bottom-social-box">
                     <div class="main-bottom-social-text">
                         <span class="text-mid">
@@ -33,13 +46,13 @@ function Home() {
                         </span>
                     </div>
                     <div class="main-bottom-social-icons">
-                        <div class="icon-social">
+                        <div class="icon-social" onClick={() => window.open("https://facebook.com/jatocleaneco", '_blank')}>
                             <FontAwesomeIcon icon={faFacebookF} />
                         </div>
-                        <div class="icon-social">
-                            <FontAwesomeIcon icon={faInstagram} />
+                        <div class="icon-social" onClick={() => window.open("https://instagram.com/jatocleaneco", '_blank')}>
+                            <FontAwesomeIcon icon={faInstagram} />  
                         </div>
-                        <div class="icon-social">
+                        <div class="icon-social" onClick={() => window.open("https://abre.ai/whatsappjatoclean", '_blank')}>
                             <FontAwesomeIcon icon={faWhatsapp} />
                         </div>
                     </div>
