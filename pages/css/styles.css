@@ -42,6 +42,24 @@ body {
     flex-direction: column;
 }
 
+.transparent-layer {
+    background-color: #1A839F;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    opacity: 30%;
+}
+
+.image-text {
+    color: white;
+    font-family: encodeSansCondSb;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    margin-bottom: 10px;
+    font-size: 20pt;
+}
 
 .main-bottom-title-box, .main-bottom-images-box, .main-bottom-social-box {
     display: flex;
@@ -66,12 +84,15 @@ body {
     align-items: center;
     display: flex;
 }
+
 .main-bottom-image {
     height: 250px;
     width: 200px;
     position: relative;
     border: 3px solid white;
     border-radius: 3px;
+    display: flex;
+    justify-content: center;
 }
 
 .main-bottom-social-box {
@@ -131,6 +152,7 @@ body {
     color: white;
     font-size: 10pt;
 }
+
 
 p {
     margin: 0;
