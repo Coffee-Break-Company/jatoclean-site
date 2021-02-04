@@ -28,16 +28,21 @@ function Home() {
                 <div class="main-bottom-images-box">
                     <div class="main-bottom-image-mask">
                         <div class="main-bottom-image">
+                            <div class="transparent-layer"></div>
+                            <div class="image-text">ESTOFADOS</div>
                             <Image src="/sofa.png" layout="fill"/>
                         </div>
                         <div class="main-bottom-image">
+                            <div class="transparent-layer"></div>
+                            <div class="image-text">TAPETES</div>
                             <Image src="/tapete.png" layout="fill"/>
                         </div>
                         <div class="main-bottom-image">
+                            <div class="transparent-layer"></div>
+                            <div class="image-text">CARROS</div>
                             <Image src="/carro.png" layout="fill"/>
                         </div>
                     </div>
-                  
                 </div>
                 <div class="main-bottom-social-box">
                     <div class="main-bottom-social-text">
