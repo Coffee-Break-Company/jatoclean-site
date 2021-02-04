@@ -197,5 +197,6 @@ p {
 
     .main {
         overflow-y: scroll;
+        overflow-x: hidden;
     }
 }
