@@ -172,3 +172,30 @@ p {
     font-family: encodeSansCondReg;
     src: url(fonts/EncodeSansCondensed-Regular.ttf);
 }
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .main-bottom-images-box {
+        display: none;
+    }
+
+    .main-bottom-title-box {
+        display: none;
+    }
+
+    .main-bottom-social-icons {
+        flex-direction: column;
+    }
+
+    .icon-social {
+        font-size: 50pt;
+    }
+
+    .main {
+        overflow-y: scroll;
+    }
+}
