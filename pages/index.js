@@ -51,7 +51,7 @@ function Home() {
                         </span>
                     </div>
                     <div class="main-bottom-social-icons">
-                        <div class="icon-social" onClick={() => window.open("https://facebook.com/jatocleaneco", '_blank')}>
+                        <div class="icon-social" onClick={() => window.open("fb://facebook.com/jatocleaneco", '_blank')}>
                             <FontAwesomeIcon icon={faFacebookF} />
                         </div>
                         <div class="icon-social" onClick={() => window.open("https://instagram.com/jatocleaneco", '_blank')}>
